@@ -105,7 +105,8 @@ Banking Dashboard :
 
 Transactions :
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/cca2681d-43ec-4373-b676-4c722ce0daf9)
+
 
 
 
