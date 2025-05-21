@@ -1,0 +1,37 @@
+{% extends 'accounts/dashboard.html' %}
+
+{% block content %}
+
+<h2 class="title">💰Your Transactions</h2>
+
+{% if transactions %}
+<table class="transaction-table">
+    <thead>
+        <tr>
+            <th>Recipient</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for accounts_transaction in transactions %}
+        <tr>
+            <td>{{ accounts_transaction.recipient }}</td>
+            <td>{{ accounts_transaction.date }}</td>
+            <td>{{ accounts_transaction.description }}</td>
+            <td>₹{{ accounts_transaction.amount }}</td>
+            <td class="{% if accounts_transaction.type == 'debit' %}debit{% else %}credit{% endif %}">
+                {{ accounts_transaction.type|title }}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="empty-state">
+    <p>You don’t have any transactions yet. Start spending or saving!</p>
+</div>
+{% endif %}
+{% endblock %}

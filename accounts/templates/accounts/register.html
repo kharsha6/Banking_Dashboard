@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register | SecureBank</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+  <div class="auth-container">
+    <div class="auth-card">
+      <h2>Create Your Account</h2>
+      <form method="POST">
+        {% csrf_token %}
+
+        <div class="form-group">
+          <label for="id_email">Email</label>
+          <input type="email" name="email" id="id_email" required>
+        </div>
+
+        {% for field in form %}
+          <div class="form-group">
+            <label>{{ field.label }}</label>
+            {{ field }}
+            {% if field.errors %}
+              <p class="error">{{ field.errors|striptags }}</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+
+        <button type="submit" class="btn">Register</button>
+        <p class="switch-auth">Already have an account? <a href="{% url 'login' %}">Login</a></p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
