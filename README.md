@@ -88,3 +88,26 @@ This Django banking system consists of the following key pages:
 - Django (Python)
 - HTML & CSS (Vanilla)
 - Responsive layout using CSS Grid and Flexbox
+
+## Images
+
+Register :
+
+![image](https://github.com/user-attachments/assets/d839d6d4-7d3f-4953-98fc-2794dd558abf)
+
+Login :
+
+![image](https://github.com/user-attachments/assets/a219f752-7e06-4f8f-a37c-d896fa194a80)
+
+Banking Dashboard :
+
+![image](https://github.com/user-attachments/assets/50fe2dde-dc4d-4eba-8239-1aa7251e029a)
+
+Transactions :
+
+![Uploading image.png…]()
+
+
+
+
+
