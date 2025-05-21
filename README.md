@@ -97,7 +97,8 @@ Register :
 
 Login :
 
-![image](https://github.com/user-attachments/assets/a219f752-7e06-4f8f-a37c-d896fa194a80)
+![image](https://github.com/user-attachments/assets/880c38a0-e3d3-4dab-8f2d-e78039ee9096)
+
 
 Banking Dashboard :
 
