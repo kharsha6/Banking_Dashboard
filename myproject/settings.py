@@ -100,7 +100,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'harshakuralla@gmail.com'
-EMAIL_HOST_PASSWORD = 'vgwqhvlfwnuzrwrp'  # App password from Google
+EMAIL_HOST_PASSWORD = 'YOUR_APP_PASSWORD'  # App password from Google
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 
