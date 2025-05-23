@@ -102,7 +102,8 @@ Login :
 
 Banking Dashboard :
 
-![image](https://github.com/user-attachments/assets/50fe2dde-dc4d-4eba-8239-1aa7251e029a)
+![image](https://github.com/user-attachments/assets/85ac5f9b-e205-4740-ac8e-b56df96f8287)
+
 
 Transactions :
 
